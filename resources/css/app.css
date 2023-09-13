@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&display=swap');
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    font-family: 'Handjet', cursive;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+input,
+button {
+    display: block;
+}
+
+input {
+    padding-inline: 4px;
+    padding-block: 4px;
+    margin-block: 8px;
+}
+
+button {
+    margin-block: 16px;
+    padding: 8px;
+    font-weight: 700;
+}
+
+a {
+    color: salmon;
+    font-weight: 700;
+}
+
+.topbar {
+    background-color: bisque;
+    padding-inline: 32px;
+    padding-block: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.topbar h1 {
+    margin: 0;
+}
+
+.topbar form {
+
+}
+
+.topbar button {
+    margin-block: auto;
+    padding: 4px;
+
+
+}
+
+
+.wrapper {
+    inline-size: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 16px;
+}
+
+.box {
+    flex-basis: 50%;
+    border: 2px dashed rgb(111, 111, 111);
+    border-radius: 8px;
+    padding-block: 16px;
+    padding-inline: 32px;
+    margin-block-end: 30px;
+
+}
+
+.post {
+    inline-size: 300px;
+}
